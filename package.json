@@ -1,13 +1,14 @@
 {
   "name": "history-router-handler",
-  "version": "0.0.0",
+  "description": "History API for router",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.6.4"
+    "vite": "^2.7.10"
   },
   "dependencies": {
     "nprogress": "^0.2.0"
