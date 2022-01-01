@@ -1,6 +1,7 @@
 # history-router-handler
 History API for router
 
+🚀 [Playground](http://history-router-handler.vercel.app/)
 
 ## Install
 
