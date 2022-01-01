@@ -1,8 +1,24 @@
+html, body {
+  background-color: #242424;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #ff8c00;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+
+a {
+  color: aliceblue;
+}
+
+#nprogress .bar {
+  background: #ff8c00 !important;
+  height: 8px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #ff8c00, 0 0 5px #ff8c00 !important;
 }

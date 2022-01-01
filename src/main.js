@@ -75,6 +75,8 @@ const renderPushComponent = async (options = {}) => {
   const componentHTML = currentRoute?.component
   if (componentHTML) {
     routerView.innerHTML = componentHTML
+  } else {
+    routerView.innerHTML = '{}'
   }
 
 
@@ -114,6 +116,8 @@ const initComponent = async (options = {}) => {
   const componentHTML = currentRoute?.component
   if (componentHTML) {
     routerView.innerHTML = componentHTML
+  } else {
+    routerView.innerHTML = '{}'
   }
 
   if (needReplace) {
