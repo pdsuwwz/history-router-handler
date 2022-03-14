@@ -27,7 +27,8 @@ elApp.innerHTML = `
   <p>
   <a href="/user">Jump User</a>
   </p>
-  <router-view />
+  <router-view></router-view>
+  <p class="tip">💡 Please try use the browser go back key</p>
 `;
 
 

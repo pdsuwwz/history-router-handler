@@ -22,3 +22,7 @@ a {
 #nprogress .peg {
   box-shadow: 0 0 10px #ff8c00, 0 0 5px #ff8c00 !important;
 }
+
+.tip {
+  color: #f4dd9a;
+}
